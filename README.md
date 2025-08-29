@@ -1,11 +1,6 @@
 1. Difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**
 
-Ans: **getElementById** -- 'Id' is a unique thing. In case of HTML & CSS, we have seen that we can access only one element with a specific id. The concept of getElementByID in JS is very similar to that. we can access a single element with a specific-named id. For example,
-
-if the HTML contains: **<h2 id="title">Hello!</h2>**
-**<button id="addBtn">Add Item</button>**
-
-and we use let title = document.getElementById("title") ; in JS and then observe the output with console.log('title'), we will see 'Hello!' in the output. if we wanna see the 'Add Item' text as output we have to use document.getElementById("addBtn"), store it in a variable and then console.
+Ans: **getElementById** -- 'Id' is a unique thing. In case of HTML & CSS, we have seen that we can access only one element with a specific id. The concept of getElementByID in JS is very similar to that. we can access a single element with a specific-named id.
 
 **getElementsByClassName** -- It picks HTML collection of all elements under the specific classname.
 
