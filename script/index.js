@@ -60,7 +60,7 @@ cardsContainer.addEventListener("click", function (event) {
     let time = now.toLocaleTimeString();
 
     let li = document.createElement("li");
-    li.innerText = `${serviceName} - ${serviceNumber} called at ${time}`;
+    li.innerText = `${serviceName} - ${serviceNumber} - ${time}`;
     li.className = `p-3 bg-gray-100 rounded-lg`;
     callHistory.insertBefore(li, callHistory.firstChild);
   }
